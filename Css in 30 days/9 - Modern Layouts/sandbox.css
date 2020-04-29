@@ -1,0 +1,49 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+.layout1-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.layout1-div aside { flex:  0 0 43%; }
+.layout1-div article {   flex: 0 0 55%; }
+
+.layout2-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.layout2-navbar nav { flex: 0 0 78%; }
+.layout2-navbar .logo{ flex: 0 0 20%; }
+.layout2-content {
+  display:flex;
+  justify-content: space-between;
+}
+.layout2-content aside { flex: 0 0 22%; }
+.layout2-content article { flex: 0 0 53%; }
+
+.layout3-header {
+  display: flex;
+  justify-content: space-between;
+}
+.layout3-header nav { flex: 0 0 78%; }
+.layout3-header .logo{ flex: 0 0 20%; order: 1;}
+
+.articles { display: flex;  justify-content: space-between;}
+.articles article { flex: 0 0 32%; }
+
+
+@media screen and (max-width: 768px) {
+   .layout1-div, .layout2-navbar, .layout2-content, .layout3-header, .articles {
+     flex-wrap: wrap;
+   }
+   .layout1-div aside, .layout1-div article,
+   .layout2-navbar nav ul, .layout2-navbar .logo,
+   .layout2-content aside, .layout2-content article,
+   .layout3-header nav, .layout3-header .logo,
+   .articles article {
+     flex: 1 1 100%;
+   }
+}

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: content-box;
+}
+body{
+  font-family: sans-serif;
+}
+.challenge {
+  border: 2px solid black;
+  margin: 5% 20%;
+}
+.challenge > div {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px dashed #333;
+}
+.result-1 {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+header {
+  font-size: 2.5rem;
+  padding: 10px 0;
+  text-align: center;
+}
+
+button {
+  font-size: 1.6rem;
+  padding: 15px;
+  border-radius: 7px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+#button1-1{ background-color: rgba(10, 90, 180, 0.7); }
+#button1-2{ background-color: rgba(220, 20, 50, 0.75); }
+#button1-1:hover{
+  background-color: rgba(10, 90, 185, 0.9);
+}
+#button1-2:hover{
+  background-color: rgba(220, 20, 50, 0.9);
+}
