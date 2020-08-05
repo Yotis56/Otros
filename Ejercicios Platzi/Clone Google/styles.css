@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  height: 100%;;
+}
+.content {
+  position: relative;
+  min-height: 100%;
+}
+header{
+  width: 100%;
+  height: 60px;
+}
+a{text-decoration: none; cursor: pointer;}
+#header-list{
+  box-sizing: border-box;
+  width: 256px;
+  height: auto;
+  margin: 15px 0 0 auto;
+  padding: 0 30px;
+  align-items: center;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.menu-icon {
+  background: no-repeat center url('./images/appicon.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+.user-icon {
+  background: no-repeat center url('./images/jlogo.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#header-list li a{color: rgba(0, 0, 0, 0.87); line-height: 24px;}
+
+
+.list-item img {
+  height: 25px;
+  width: 25px;
+}
+ /* estilos del contenido principal */
+#main-content{ text-align: center; }
+#main-content > section {padding: 10px 0;}
+#mainlogo {padding-top: 80px;}
+#search{ width: 530px; margin: 0 auto;}
+.search-input{ 
+  width: 525px; 
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.search-input input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+.search-input:hover { box-shadow: 0 1px 6px 0 #20212447; border-color: #dfe1e500; }
+.search-icon { 
+  background: url('./images/search.png') no-repeat center; 
+  background-size: contain;
+  height: 25px; width: 25px; 
+}
+.mic-icon {
+  background: url('./images/mic.png') no-repeat center;
+  background-size: cover;
+  height: 25px; 
+  width: 25px;
+}
+.button-container {
+
+}
+.button-container button {
+  background: #f2f2f2;
+  color: #5f6368; 
+  font-size: 14px;
+  padding: 0 16px;
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid #f2f2f2;
+  margin: 10px 5px;
+}
+.text p {
+  margin: 0;
+}
+/* Estilos del Footer */
+footer {background-color: #f2f2f2; position: fixed; bottom: 0;width: 100%;}
+footer > div {border-top: 1px solid #ddd;}
+.main-footer, .pais {display: flex; padding: 12px 15px;}
+.main-footer a, .pais p {
+  color: rgba(0,0,0,0.5);
+  padding: 0 13px;
+  font-size: 1.1em;
+}
+.pais p {margin: 0;}
+.foot-right{ margin-left: auto;}
+a:hover{text-decoration: underline;}
+button:hover {
+  border-color: #c6c6c6;
+  cursor: pointer;
+  color: #222;
+  box-shadow: 1px 1px rgba(0,0,0,.1);
+}
